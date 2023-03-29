@@ -25,3 +25,5 @@ switch (peca.toLowerCase()) {
         console.log("Erro: peça inválida");
 }
 
+
+
