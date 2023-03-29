@@ -13,7 +13,7 @@
 // De R$ 3.751,06 a R$ 4.664,68: alíquota de 22,5% e parcela de R$ 636,13 a deduzir do imposto  
 // Acima de R$ 4.664,68: alíquota de 27,5% e parcela de R$ 869,36 a deduzir do imposto
 
-let salarioBruto = 3000.00;
+let salarioBruto = 6500;
 let salarioLiquido = 0;
 let inss = 0;
 let ir = 0;
@@ -44,5 +44,5 @@ if (salarioLiquido <= 1903.98) {
 
 salarioLiquido = salarioLiquido - ir;
 
-console.log(salarioLiquido);
+console.log("O seu salário líquido será de: " + salarioLiquido);
 
