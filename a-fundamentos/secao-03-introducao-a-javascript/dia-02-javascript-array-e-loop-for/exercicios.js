@@ -27,3 +27,19 @@ while(counter !== 5) {
   counter += 1;
   console.log(counter);
 }
+
+// O código acima vai imprimir no console os números de 1 a 5.
+
+// Agora, vamos fazer um programa que imprima no console a tabuada do 5 (5, 10, 15, 25, 35, 45, 55, 65, 75, 85, 95).
+
+// O código abaixo é uma sugestão de como você pode resolver o exercício:
+
+let counter2 = 0; 
+
+while(counter2 <= 10) {
+  console.log(counter2 * 5);
+  counter2 += 1;
+}
+
+// O código acima vai imprimir no console a tabuada do 5.
+
