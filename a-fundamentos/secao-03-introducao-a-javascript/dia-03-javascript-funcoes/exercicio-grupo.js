@@ -53,7 +53,7 @@ function calculatePerimeter(l1, l2, l3) {
 // OBS: o console.log final deverá ser assim: 
 // console.log(infoTriangle(lado1, lado2, lado3)); Tudo deve acontecer depois de sua execução...
 
-console.log(infoTriangle(l1, l2, l3));
+
 
 function infoTriangle(l1, l2, l3) {
     if (checkIntegerPositive(l1, l2, l3)) {
@@ -66,5 +66,7 @@ function infoTriangle(l1, l2, l3) {
         return "Os valores não são positivos.";
     }
 }
+
+console.log(infoTriangle(lado1, lado2, lado3));
 
 
