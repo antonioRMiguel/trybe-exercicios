@@ -14,6 +14,7 @@ html {
     padding: 5px;
   }
 
+  /* primeiro breakpoint */
   @media screen and (max-width: 600px) {
     body {
         background-color: aquamarine;
@@ -27,5 +28,26 @@ html {
     p {
         padding: 0 5px;
         line-height: 1.5em;
+        text-align: center;
+    }
+}
+
+/* segundo breakpoint */
+@media screen and (min-width: 600px) {
+    body {
+        background-color: bisque;
+    }
+    .container {
+        flex-wrap: wrap;
+    }
+}
+
+/* terceiro breakpoint */
+@media screen and (min-width: 1000px) {
+    body {
+        background-color: whitesmoke;
+    }
+    .container {
+        flex-wrap: nowrap;
     }
 }
