@@ -1,5 +1,27 @@
+@media print {
+    #header,
+    #navigation,
+    #footer {
+      display: none;
+    }
+}
+
+#content {
+    width: 100%;
+    margin-right: 0px;
+}
+
+#aside {
+    display: felx;
+    flex-direction: column;
+    page-break-inside: avoid;
+}
+
+
+
 body {
     margin: 0;
+    text-align: justify;
   }
   
   #container {
