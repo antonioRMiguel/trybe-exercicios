@@ -1,0 +1,53 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  .container {
+    display: flex;
+  }
+
+  p {
+    padding: 5px;
+  }
+
+  /* primeiro breakpoint */
+  @media screen and (max-width: 600px) {
+    body {
+        background-color: aquamarine;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .container {
+        flex-direction: column;
+    }
+
+    p {
+        padding: 0 5px;
+        line-height: 1.5em;
+        text-align: center;
+    }
+}
+
+/* segundo breakpoint */
+@media screen and (min-width: 600px) {
+    body {
+        background-color: bisque;
+    }
+    .container {
+        flex-wrap: wrap;
+    }
+}
+
+/* terceiro breakpoint */
+@media screen and (min-width: 1000px) {
+    body {
+        background-color: whitesmoke;
+    }
+    .container {
+        flex-wrap: nowrap;
+    }
+}
