@@ -134,3 +134,25 @@ imprimeIdade()
   );
 
   console.log(speedCar(speed));
+
+
+  // Crie uma função que ligue e desliga o motor de um carro
+
+  let motor = true;
+
+  const ligarMotor = (motor) => (
+    motor === false ? `Motor desligado` : `Motor Ligado`
+  );
+
+  console.log(ligarMotor(motor));
+
+
+  // Crie uma função que calcule a área de um círculo
+
+  let raio = 6;
+
+  const areaCirculo = (raio) => (
+    Math.PI * (raio * raio)
+  );
+
+  console.log(areaCirculo(raio));
