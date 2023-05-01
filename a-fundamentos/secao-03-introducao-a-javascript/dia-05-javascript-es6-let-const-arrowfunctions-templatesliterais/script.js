@@ -16,3 +16,7 @@ imprimeIdade()
   
   console.log('Nome:', pessoa.nome);
   console.log('Idade:', pessoa.idade);
+
+  let favoriteFood = 'Lasanha';
+  favoriteFood = 'Hambúrguer';
+  console.log(favoriteFood);
