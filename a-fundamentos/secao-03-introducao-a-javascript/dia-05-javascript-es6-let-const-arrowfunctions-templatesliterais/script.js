@@ -156,3 +156,10 @@ imprimeIdade()
   );
 
   console.log(areaCirculo(raio));
+
+
+// crie uma função que ligue e desligue o motor de um carro
+
+const ligarDesligar = (statusDoMotor) => {
+  
+}
